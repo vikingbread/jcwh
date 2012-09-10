@@ -1,0 +1,92 @@
+body{
+    width:891px;
+    text-align: center;
+    color: #11449E;
+}
+#header {
+ 	background:url("../images/login_zf.jpg") no-repeat right top;
+	margin-top:20px;
+	width:891px;
+	min-height:90px;
+}
+#header h2,#header h3{
+    float:left;
+    margin-top:20px;
+}
+#main{ 
+    width:891px;
+   
+}
+#left{
+    background:url("../images/login_left.jpg");
+    float:left;
+    height:340;
+    width:426;
+}
+#left img{
+    margin-top:29;
+}
+#right{
+    background:url("../images/login_right.jpg") no-repeat ;
+    float:left;
+    height:340;
+    text-align:left;
+    width:462px;
+}
+#right dl{
+    margin:100px 0 0 105px;
+    min-height:100px;
+    width:220px;
+}
+#right dt,#right dd{
+    float:left;
+    margin:7px 0;
+    line-height:20px;
+    height:20px;
+}
+.user{
+    background:url("../images/login_ico.gif") no-repeat left 0;
+    text-indent:1.5em;
+}
+.passw{
+    background:url("../images/login_ico.gif") no-repeat left -28px;
+    text-indent:1.5em;
+
+}
+#res{
+	cursor:pointer;
+    background:url("../images/login_res.gif") no-repeat left top;
+}
+#sub{
+	cursor:pointer;
+    background:url("../images/login_in.gif") no-repeat left top;
+}
+#waitImg{	
+	float:left; 
+	height:20px;
+	width:20px;	
+	line-height:20px;
+	visibility:hidden;
+	margin-left:20px;
+	display:block;
+}
+#res,#sub{
+	display:inline;
+    height:20px;
+    margin:0 10px;
+    width:58px;
+    border-width:0;
+}
+#valtip{
+	float:left;
+	margin-top:2px;
+	margin-left:105px;
+	width:193px;
+	padding:0px;
+	display:block;
+}
+#valtip .validateTips{
+	float:left;
+	text-align: center;
+}
+

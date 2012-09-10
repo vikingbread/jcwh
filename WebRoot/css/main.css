@@ -1,0 +1,23 @@
+
+#header {
+ background:url("../images/login_zf.jpg") no-repeat right top;
+margin-top:20px;
+width:891px;
+min-height:90px;
+}
+#header h2,#header h3{
+    float:left;
+    margin-top:20px;
+}
+#left{
+    min-height:455px;
+    width:200px;
+    float:left;
+    background:#eeeeee;
+}
+#right{
+    min-height:455px;
+    width:691px;
+    float:left;
+    background:#333333;
+}

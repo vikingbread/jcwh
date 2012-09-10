@@ -1,0 +1,207 @@
+body{
+	overflow:hidden;
+}
+#container{
+    margin:0 auto;
+}
+#rtlogo{
+	position:absolute;
+	top:1px;
+	right:2px;
+	width:293px;
+	height:40px;
+	border-radius:3px;
+}
+#header h2{
+    margin:20px 0 0 20px;
+    float:left;
+}
+#header h3{
+    float:left;
+    margin-top:20px;
+}
+#header ul li a{
+    border:0;
+    line-height:40px;
+    color:#ffffff;
+    text-decoration:none;
+}
+#header #rightMenu{
+  /*  background:url("../images/main_06.gif") no-repeat right top;  */
+    height:27px;
+    width:281px;
+    float:right;
+    margin-right:0px;
+    margin-top: 53px;
+}
+
+#header #rightMenu .right{
+    float:left;
+    background:url("../../images/main_06.gif") no-repeat right top;
+    height:27px;
+    width:248px;
+
+}
+#header #rightMenu .right ul{
+    padding:5px 5px 3px 8px;
+    list-style:none;
+}
+#header ul li{
+    padding:0;
+    margin-left:4px;
+    list-style-type:none;
+    float:left;
+    display:inline;
+    white-space:nowrap;
+    line-height:17px;
+    height:17px;
+    width:69px;
+}
+#header img{
+    vertical-align: middle;
+}
+#header #menu{
+    clear:both;
+    background:url("../../images/main_10.gif") repeat-x;
+    height:40px;
+    overflow:hidden;
+    width:auto;
+}
+#menu li img{
+    height:30px;
+    width:25px;
+    border:0px;
+}
+#menu ul li{
+    margin-top:5px;
+    height:32;
+    padding-left:10px;
+    width:40px;
+    border:0px;
+}
+#menu #l{
+    padding-left:194px;
+    margin-left:0;
+    float:left;
+    width:480px;
+    text-align:left;       
+}
+#menu #info{
+    float:right;
+    background:url(../../images/main_11.gif) right top;
+    width:248px;
+    height:38px;
+    margin-right:20px;
+	text-align:center;
+	overflow:hidden;
+    
+}
+#info a{
+	display:block;
+	padding-top:12px;
+	cursor:pointer;
+    color:#ffffff;	
+    text-decoration:none;;
+}
+
+#header #menufoot{ 
+    background:url(../../images/main_31.gif) #ADD2DA repeat-x  ;
+    clear:both;
+    height:30px;
+    width:auto;
+}
+#menufoot div{
+    float:left;
+    height:30px;
+}
+#menufoot #rightFoot{
+	float:right;
+	height:30px;
+	width:17px;
+	background:url(../../images/main_32.gif) right top;
+}
+.style1{
+    clear:both;
+    font-size:13px;
+    padding-left:30px;
+    color:#000;
+    line-height:30px;
+}
+#left{
+    float:left;
+    width:147px;
+    height:auto;
+    border-left:#353c44 8px solid;
+    border-right:#add2da 10px solid;
+    overflow-y:auto;
+    overflow:hidden;
+}
+#left iframe{
+    width:147px;
+    height:250px;
+    overflow:hidden;
+}
+
+#leftbottom{
+   clear:both;
+   height:11px; 
+   margin:0;
+   padding:0;
+   text-align:left;
+   width:100%; 
+}
+#right{
+	border-right:#353c44 8px solid;
+	float:right;
+	width:auto; 
+	height:auto; 
+	}
+#rightFrame{
+	width:100%;
+	height:100%;	 
+	display:inline;
+}
+#mainFoot{	
+	clear:both;
+	height:11px;
+	width:100%;
+}
+#mainFoot .leftBottom{
+	float:left;	
+	height:11px;
+	width:165px;
+}
+#mainFoot .rightBottom{
+	background:url(../../images/main_74.gif) right top no-repeat;
+	float:right;
+	height:11px;
+	width:17px;	
+}
+#mainFoot .centerBottom{
+	background:url(../../images/main_72.gif) repeat-x;
+	height:11px;	 
+}
+#authorPanel{
+	text-align:left;
+	background:#F5F5F5;
+	border:1px #EAE7E7 solid;
+	position:absolute;
+	z-index:999;
+	width:190px;
+	height:42px;
+	font-size:12px;
+	padding:3px;
+	border-radius:4px;
+}
+#newExp{
+	font-weight:bold;
+	cursor:pointer;
+}
+#newExp:hover{
+	text-decoration:underline;
+}
+a{
+	text-decoration:none;
+	color:#000000;
+}
+	
