@@ -1,0 +1,33 @@
+body{
+	margin:0 auto; 	
+    background:url("../images/login_bg.jpg") repeat-x left top;
+}
+*{
+	margin:0;
+	padding:0;
+}
+body, input, table, select, textarea, h1, h2, h3, h4, h5, h6, button {
+    font-family: Verdana,Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+} 
+input{
+   border: 1px solid #CCCCCC;
+   background:#ffffee;
+}
+form {
+	margin: 0px;
+	padding: 0px;
+}
+#copyright{
+    clear:both;
+    margin-top:20px;
+    padding-top:40px;
+}
+#copyright span{
+
+    color:#60819d;
+    line-height:23px;
+    height:23px;
+    display:inline;
+}

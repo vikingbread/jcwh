@@ -1,0 +1,36 @@
+input{
+			display:block;
+			margin:0;
+			padding:0;
+		}
+		#submit{
+			float:right;
+		}
+		.label{
+			display:block;
+			text-align:right;
+			margin-right:20px;
+			height:24px;
+		}
+		.content{
+			height:24px;
+		}
+		.title{
+			background:#353c44;
+			height:24px;
+			font-size:13
+		}
+		#container h3{
+			padding-left:5px;
+			border-bottom: 1px solid #CDD7D9;
+  			color: #000000;
+  			font-size: 14px;
+  			font-weight: 700;
+  			line-height: 18px;
+   			argin-bottom: 6px;
+   			padding-bottom: 6px;
+		}
+		#container{
+			color:#344b50;
+			font-size:14px;
+		}
